@@ -1,0 +1,182 @@
+html, body { height:100%; }
+
+#sb {
+	padding: 20px;
+	border-radius: 10px;
+	background-color: rgba(255, 255, 255, 0.8);
+	margin: auto;
+	position: absolute;
+	width: 440px;
+	top:70px;
+	left:20px;
+	box-shadow: 0px 0px 5px rgba(0,0,0,0.7);
+	z-index: 200;
+}
+
+#sb form {
+	margin: 0;
+}
+
+#popular {
+	position: absolute;
+	top: 140px;
+	z-index: 600;
+	margin: 20px;
+	background-color: rgba(255, 255, 255, 0.8);
+}
+
+#popular h3 {
+	color: rgba(0, 0, 0, 0.5);
+	font-weight: 400;
+}
+
+#popular ul {
+	margin: 0;
+}
+
+#resultsList {
+	position: absolute;
+	display: none;
+	width: 100%;
+	z-index: 100;
+	margin-top: 50px;
+	background-color: rgba(255, 255, 255, 0.8);
+}
+
+.resultsColumns {
+	/*-webkit-columns:200px 4;
+	-moz-columns:200px 4;*/
+}
+
+#bunny {
+	background-image: url(../img/Evil_Bunny_by_meriinmata.jpg);
+	position: fixed;
+	bottom: 0;
+	left:0;
+	width:400px;
+	height:331px;
+	z-index: 0;
+	background-repeat: no-repeat;
+}
+
+#itemContent {
+	position: absolute;
+	display: none;
+	width: 100%;
+	z-index: 300;
+	top: 50px;
+}
+
+#doingStuff {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	width: 100px;
+	z-index: 100000;
+	display: none;
+}
+
+#story {
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 23px;
+}
+
+.chartBeatIcon {
+	width: 24px;
+	height: 24px;
+	margin-top: -5px;
+}
+
+.itemChartBeatCount .chartBeatIcon {
+	width: 32px;
+	height: 32px;
+	margin-top: -15px;
+}
+
+.chartBeatCount {
+	color: rgba(0,0,0,0.5);
+	font-size: 16px;
+	margin-top: 5px;
+	display: inline-block;
+}
+
+.itemChartBeatCount .chartBeatCount {
+	font-size: 24px;
+	margin-top: 40px;
+}
+
+.chartBeatWrapper {
+}
+
+#searchResults ul {
+	list-style: none;
+	margin: 0;
+	font-weight: 500;
+}
+
+.excerpt {
+	font-weight: 300;
+}
+
+.itemTitle {
+	font-size: 16px;
+}
+
+.responseItem {
+	/*width: 500px;*/
+	margin: 15px 10px 15px 20px;
+	float: left;
+	width: 310px;
+	height:150px;
+	overflow: hidden;
+}
+
+.resultCount {
+	float: left;
+	width: 40px;
+	height:125px;
+	font-size: 28px;
+	padding: 5px 0 0 0;
+	color: rgba(0,0,0,0.2);
+}
+
+.itemMeta {
+	
+	margin: 10px;
+	/*background-image: linear-gradient(to bottom, rgba(255,255,255,0.8), rgba(242,242,242,0.7));
+	box-shadow: 0px 0px 3px rgba(0,0,0,0.7);
+	border-radius: 10px;*/
+	font-size: 16px;
+	font-weight: 300;
+}
+
+#leftColMeta {
+	padding-top: 20px;
+}
+
+.itemContent {
+	margin:10px 0 20px 20px;
+	padding: 5px 20px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+	border-radius: 10px;
+	background-color: rgba(255, 255, 255, 0.8);
+}
+
+.itemMeta a {
+	cursor: pointer;
+}
+
+.itemMeta li {
+	margin: 5px;
+}
+
+.itemMeta h5 {
+	margin: 0px;
+	font-size: 16px;
+	color: #777777;
+}
+
+.navbar .brand {
+	padding: 10px 20px 10px 40px;
+}
