@@ -65,7 +65,6 @@ rabbit.doRandom = function () {
 };
 
 rabbit.doPopular = function () {
-	$('#doingStuff').show();
 	$.ajax({url:	'http://' + rabbit.ip + ':8080/content/rabbithole/toparticles?callback=rabbit.popularResponse',
 		dataType:	'script',
 		cache:		false
